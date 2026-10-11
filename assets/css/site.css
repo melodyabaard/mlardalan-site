@@ -1036,3 +1036,9 @@ html body .hfe-nav-menu .hfe-menu-toggle.sub-arrow::before{content:none!importan
 html body .hfe-nav-menu .hfe-menu-toggle.sub-arrow{display:inline-flex;align-items:center;justify-content:center;width:12px;height:12px;margin:0 0 0 8px!important}
 html body .hfe-nav-menu .hfe-menu-toggle.sub-arrow i{display:block;width:6px;height:6px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:translateY(-2px) rotate(45deg);font-size:0}
 html body .hfe-nav-menu .menu-item-has-children.focus .hfe-menu-toggle.sub-arrow i{transform:translateY(1px) rotate(225deg)}
+
+/* Uniform body text: FAQs answers and Contact match About Me / book pages (22px, 1.6 line height, left aligned) (Mel, Oct 10 2026) */
+.elementor-1804 .elementor-tab-content,
+.elementor-1804 .elementor-tab-content p{font-size:22px!important;line-height:1.6!important;font-weight:400!important}
+.elementor-512 .elementor-element-9278b86,
+.elementor-512 .elementor-element-9278b86 p{text-align:left!important;font-size:22px!important;line-height:1.6!important}
