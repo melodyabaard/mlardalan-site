@@ -5,9 +5,9 @@
     if(!box||!sub) return;
     function set(open){ li.classList.toggle('focus',open); box.setAttribute('aria-expanded',open?'true':'false'); }
     box.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); set(!li.classList.contains('focus')); }});
-    /* Books is a menu opener only: it never navigates; it toggles the dropdown (Mel, Oct 10 2026) */
+    /* Hover (mouse) opens the dropdown via CSS; pressing Books goes to the Books page on mouse. On touch screens the first tap opens the dropdown, a second tap on Books goes to the Books page (Mel, Oct 10 2026) */
     box.querySelector('a').addEventListener('click',function(e){
-      e.preventDefault(); set(!li.classList.contains('focus'));
+      if(window.matchMedia('(hover: none)').matches && !li.classList.contains('focus')){ e.preventDefault(); set(true); }
     });
     document.addEventListener('click',function(e){ if(!li.contains(e.target)) set(false); });
   });
