@@ -1012,3 +1012,6 @@ body.elementor-page-3759:not(.elementor-motion-effects-element-type-background),
 .elementor-1804 .elementor-element.elementor-element-128621b5 .elementor-tab-content,
 .elementor-1804 .elementor-element.elementor-element-128621b5 .elementor-tab-title,
 .elementor-1804 .elementor-element.elementor-element-128621b5 .elementor-toggle-item{border-top:0!important;border-bottom:0!important}
+
+html{scroll-behavior:smooth}
+#bio{scroll-margin-top:0}
