@@ -1008,6 +1008,7 @@ body.elementor-page-3759:not(.elementor-motion-effects-element-type-background),
 .coming-soon a{color:inherit;text-decoration:underline}
 @media (max-width:544px){.coming-soon{padding:90px 20px 120px}.coming-soon h1{font-size:36px}}
 
-/* Clean look: no pink/dark glow around FAQ items or the FAQ container (Mel, Oct 10 2026) */
-.elementor-1804 .elementor-element.elementor-element-128621b5{box-shadow:none!important}
-.elementor-1804 .elementor-element.elementor-element-128621b5 .elementor-toggle-item{box-shadow:none!important;border:0!important;border-bottom:1px solid #e5e5e5!important}
+/* FAQ: keep the pink glow between items; remove the thin grey lines above/below each answer (Mel, Oct 10 2026) */
+.elementor-1804 .elementor-element.elementor-element-128621b5 .elementor-tab-content,
+.elementor-1804 .elementor-element.elementor-element-128621b5 .elementor-tab-title,
+.elementor-1804 .elementor-element.elementor-element-128621b5 .elementor-toggle-item{border-top:0!important;border-bottom:0!important}
