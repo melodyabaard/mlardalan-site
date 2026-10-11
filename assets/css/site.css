@@ -1015,3 +1015,7 @@ body.elementor-page-3759:not(.elementor-motion-effects-element-type-background),
 
 html{scroll-behavior:smooth}
 #bio{scroll-margin-top:0}
+
+/* Mobile/touch: tapped menu items get :hover, which hid the dropdown. Keep it visible when opened via .focus (Mel, Oct 10 2026) */
+html body .hfe-nav-menu .menu-item-has-children.focus > .sub-menu,
+html body .hfe-nav-menu .menu-item-has-children.focus:hover > .sub-menu{visibility:visible!important;opacity:1!important;display:block!important}
