@@ -1,0 +1,6 @@
+# STAGING: noindex on every page. At cutover remove the noindex meta and use:
+# User-agent: *
+# Allow: /
+# Sitemap: https://mlardalan.com/sitemap.xml
+User-agent: *
+Disallow: /
