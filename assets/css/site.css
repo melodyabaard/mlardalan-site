@@ -1007,3 +1007,7 @@ body.elementor-page-3759:not(.elementor-motion-effects-element-type-background),
 .coming-soon p{margin:0 0 16px;font-size:16px;line-height:1.6}
 .coming-soon a{color:inherit;text-decoration:underline}
 @media (max-width:544px){.coming-soon{padding:90px 20px 120px}.coming-soon h1{font-size:36px}}
+
+/* Clean look: no pink/dark glow around FAQ items or the FAQ container (Mel, Oct 10 2026) */
+.elementor-1804 .elementor-element.elementor-element-128621b5{box-shadow:none!important}
+.elementor-1804 .elementor-element.elementor-element-128621b5 .elementor-toggle-item{box-shadow:none!important;border:0!important;border-bottom:1px solid #e5e5e5!important}
