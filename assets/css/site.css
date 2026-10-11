@@ -1020,10 +1020,11 @@ html{scroll-behavior:smooth}
 html body .hfe-nav-menu .menu-item-has-children.focus > .sub-menu,
 html body .hfe-nav-menu .menu-item-has-children.focus:hover > .sub-menu{visibility:visible!important;opacity:1!important;display:block!important}
 
-/* Home "Scroll Down" button: dark grey with white text (Mel, Oct 10 2026) */
+/* Home "Scroll Down" button: black rounded rectangle, white text; light grey text turns white when pressed (Mel, Oct 10 2026) */
 .elementor-element-bc76a92 .elementor-button,
 .elementor-element-bc76a92 .elementor-button:hover,
-.elementor-element-bc76a92 .elementor-button:focus{background-color:#3a3a3a!important;color:#fff!important;border-color:#3a3a3a!important}
+.elementor-element-bc76a92 .elementor-button:focus,
+.elementor-element-bc76a92 .elementor-button:active{background-color:#000!important;border:1px solid #6b6b6b!important;border-radius:10px!important;padding:14px 34px!important;color:#fff!important}
 .elementor-element-bc76a92 .elementor-button .elementor-button-text{color:#fff!important}
 
 .book-cover-link{display:block;cursor:pointer}
