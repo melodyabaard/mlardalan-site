@@ -1025,3 +1025,6 @@ html body .hfe-nav-menu .menu-item-has-children.focus:hover > .sub-menu{visibili
 .elementor-element-bc76a92 .elementor-button:hover,
 .elementor-element-bc76a92 .elementor-button:focus{background-color:#3a3a3a!important;color:#fff!important;border-color:#3a3a3a!important}
 .elementor-element-bc76a92 .elementor-button .elementor-button-text{color:#fff!important}
+
+.book-cover-link{display:block;cursor:pointer}
+.book-cover-link img{display:block}
